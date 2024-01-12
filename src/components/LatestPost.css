@@ -1,0 +1,22 @@
+.latest-post {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5rem;
+    margin-bottom: 1rem;
+    background-color: #ddd;
+}
+
+.latest-post h3 {
+    color: black;
+}
+
+.post-content {
+    color: #555;
+}
+
+.post-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    color: #777;
+}

@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.app {
+
+  background-image: url('/src/4.jpg');
+  background-size: cover;
+  opacity: 1;
+}
+
+
+header {
+  padding: 10px 50px;
+  background: #555;
+  color: #f1f1f1;
+  font-family: 'Courier New', Courier, monospace;
+  position: sticky;
+  opacity: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 0.5rem;
+}
+
+nav span {
+  margin: 0 1rem;
+  cursor: pointer;
+  color: lightsalmon;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.content {
+  margin-bottom: 1px;
+}
+
+.social-icons {
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+}
+
+.feedback-form {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.feedback-form input {
+  padding: 16px 18px;
+  background-color: lightgoldenrodyellow;
+  color: black;
+}
+
+.feedback-form button {
+  margin-top: 0.5rem;
+  margin-left: 20px;
+}
+
+.feedback-form a {
+
+  margin-left: 20px;
+}
+
+.subscribe-button {
+  margin-top: -4.5rem;
+  text-align: center;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  bottom: 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.caption {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.video-frame {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5rem;
+  margin-bottom: 1rem;
+  background-color: #ddd;
+}
